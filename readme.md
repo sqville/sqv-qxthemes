@@ -1,6 +1,6 @@
 # sqv-qxthemes
 
-Advanced themes for the qooxdoo javascript framework
+Themes for the qooxdoo javascript framework
 
 # Demo - Clean theme
 
