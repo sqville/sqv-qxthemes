@@ -15,7 +15,7 @@
   "applications": [
     {
       "class": "sqv.demo.Application",
-      "theme": "sqv.theme.Theme",
+      "theme": "sqv.theme.Clean",
       "name": "sqv"
     }
   ]

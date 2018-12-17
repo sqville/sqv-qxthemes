@@ -60,7 +60,7 @@ qx.Mixin.define("sqv.theme.clean.MFreestyleCss",
 	  var iconname = this.getFreestyleCss();
 	  if (iconname.length > 0) {
 	  	
-	  	var sudostylemap = qx.theme.clean.Image.CSSICONS[iconname]; 
+	  	var sudostylemap = sqv.theme.clean.Image.CSSICONS[iconname]; 
 	  	
 	  	//establish env specific property names
 	  	// Border Radius
