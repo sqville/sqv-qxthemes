@@ -1,0 +1,22 @@
+{
+  "targets": [
+    {
+      "type": "source",
+      "outputPath": "source-output"
+    },
+    {
+      "type": "build",
+      "outputPath": "build-output"
+    }
+  ],
+  "defaultTarget": "source",
+  "locales": ["en"],
+
+  "applications": [
+    {
+      "class": "sqv.demo.Application",
+      "theme": "sqv.theme.Theme",
+      "name": "sqv"
+    }
+  ]
+}
