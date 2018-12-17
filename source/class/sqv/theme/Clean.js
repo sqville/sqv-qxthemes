@@ -45,7 +45,7 @@ qx.Theme.define("sqv.theme.Clean",
     color : sqv.theme.clean.Color,
     decoration : sqv.theme.clean.Decoration,
     font : sqv.theme.clean.Font,
-    icon : qx.theme.icon.Material,
+    icon : qx.theme.icon.Tango,
     appearance : sqv.theme.clean.Appearance
   },
   
