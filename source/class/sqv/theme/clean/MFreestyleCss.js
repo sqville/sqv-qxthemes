@@ -108,7 +108,7 @@ qx.Mixin.define("sqv.theme.clean.MFreestyleCss",
     {
     	//work down include chain before updating styles
     	if (sudostylemap.hasOwnProperty("include")){
-		  	var nextstylemap = qx.theme.clean.Image.CSSICONS[sudostylemap["include"]];
+		  	var nextstylemap = sqv.theme.clean.Image.CSSICONS[sudostylemap["include"]];
 		  	delete sudostylemap["include"];
 		  	arrmaps.unshift(sudostylemap);
 		  	if (nextstylemap.hasOwnProperty("include"))
@@ -132,7 +132,7 @@ qx.Mixin.define("sqv.theme.clean.MFreestyleCss",
     {
       //work down include chain before updating styles
       if (sudostylemap.hasOwnProperty("include")){
-				var nextstylemap = qx.theme.clean.Image.CSSICONS[sudostylemap["include"]];
+				var nextstylemap = sqv.theme.clean.Image.CSSICONS[sudostylemap["include"]];
 				if (nextstylemap.hasOwnProperty("include")) {
 					sudostylemap["include"] = nextstylemap["include"];
 					this._mergeRecursive(sudostylemap, nextstylemap);
