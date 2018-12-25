@@ -622,7 +622,12 @@ qx.Class.define("sqv.theme.clean.Image",
     paint : function(drawing)
     {
   		return sqv.theme.clean.Image.DRAWINGS[drawing].map(this._convertstroke).join("");
-    },
+	},
+	
+	render : function(template, content)
+	{
+		return qx.bom.Template.render(this.SVGTEMPLATES[template], this.SVGCONTENT[content]);
+	},
     
     /*
      * vA = [width, height, left, top, red, green, blue, alpha]

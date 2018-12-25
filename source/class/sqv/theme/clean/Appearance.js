@@ -387,7 +387,7 @@ qx.Theme.define("sqv.theme.clean.Appearance",
         return {
           padding : 2,	
           //html : sqv.ui.embed.Svg.mapfasvg("bath")
-          html : qx.bom.Template.render(sqv.theme.clean.Image.SVGTEMPLATES["fontawesome"], sqv.theme.clean.Image.SVGCONTENT["fa-bath"])
+          html : sqv.theme.clean.Image.render("fontawesome", "fa-bath")
         };
       }
     },
@@ -1925,8 +1925,8 @@ qx.Theme.define("sqv.theme.clean.Appearance",
         return {
           width: 22,
           height: 24,
-          padding : 2,	
-          html : qx.bom.Template.render(sqv.theme.clean.Image.SVGTEMPLATES["fontawesome"], sqv.theme.clean.Image.SVGCONTENT["calendar-alt-1"])
+          padding : 2,
+          html : sqv.theme.clean.Image.render("fontawesome","calendar-alt-1")
         };
       }
     },
@@ -2874,11 +2874,10 @@ qx.Theme.define("sqv.theme.clean.Appearance",
         }
         return {
           padding : [3, 8, 3, 5],
-          //icon : states.opened ? "icon/folder-open.svg" : "icon/folder.svg",
           icon : "",
           iconProps : states.opened ? 
-            { html : qx.bom.Template.render(sqv.theme.clean.Image.SVGTEMPLATES["material-2paths"], sqv.theme.clean.Image.SVGCONTENT["ma2p-folder-open"]) } : 
-            { html : qx.bom.Template.render(sqv.theme.clean.Image.SVGTEMPLATES["material-2paths"], sqv.theme.clean.Image.SVGCONTENT["ma2p-folder"]) },
+            { html : sqv.theme.clean.Image.render("material-2paths", "ma2p-folder-open") } : 
+            { html : sqv.theme.clean.Image.render("material-2paths", "ma2p-folder") },
           backgroundColor : backgroundColor,
           //iconOpened : "icon/folder-open.svg",
           opacity : states.drag ? 0.5 : undefined
@@ -2921,7 +2920,7 @@ qx.Theme.define("sqv.theme.clean.Appearance",
         return {
           //icon : "icon/insert-drive-file.svg",
           icon : "",
-          iconProps : { html : qx.bom.Template.render(sqv.theme.clean.Image.SVGTEMPLATES["material-2paths"], sqv.theme.clean.Image.SVGCONTENT["ma2p-file"]) },
+          iconProps : { html : sqv.theme.clean.Image.render("material-2paths", "ma2p-file") },
           opacity : states.drag ? 0.5 : undefined
         };
       }
