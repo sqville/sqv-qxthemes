@@ -385,8 +385,7 @@ qx.Theme.define("sqv.theme.clean.Appearance",
       style : function(states)
       {
         return {
-          padding : 2,	
-          //html : sqv.ui.embed.Svg.mapfasvg("bath")
+          padding : 2,
           html : sqv.theme.clean.Image.render("fontawesome", "fa-bath")
         };
       }
