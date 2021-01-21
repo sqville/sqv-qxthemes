@@ -1,8 +1,3 @@
 # sqv-qxthemes
 
-Themes for the qooxdoo javascript framework
-
-# Demo - Clean theme
-
-http://sqville.com/examples/widgetbrowser2018/index.html
-
+This repo no longer maintained. Please see [ville.Clean](https://github.com/sqville/ville.Clean) for the latest version
